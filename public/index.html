@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundos Marinhos - Curiosidades</title>
+  <link rel="stylesheet" href="style.css">
+    <!-- Bibliotecas -->
+  <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.8.0/dist/tf.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+
+  <!-- Script principal -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>🌊 Mundos Marinhos - Curiosidades</h1>
+    <p>Explore os mistérios e encantos do oceano!</p>
+  </header>
+
+  <nav>
+    <button id="abrirIA">🤖 IA de Reconhecimento</button>
+    <button id="btnAbrirChatbot">💬 Chat-bot</button>
+  </nav>
+
+  <!-- GOLFINHOS -->
+  <section>
+    <h2>🐬 Golfinhos</h2>
+
+    <div class="gallery">
+      <img src="static/20251107_1609_Golfinho Oceânico_simple_compose_01k9fvg7kgexgb6wsdcctf17pb.png" alt="Golfinho">
+      <img src="static/20251107_1612_Golfinho Nadando_simple_compose_01k9fvnvneez29tp2qgyd5pjkw.png" alt="Golfinho nadando">
+    </div>
+
+    <p>Os golfinhos são mamíferos marinhos extremamente inteligentes. Eles utilizam sons para se comunicar, navegar e até para “ver” através da ecolocalização. Podem nadar a mais de 30 km/h e vivem em grupos chamados de **cardumes**.</p>
+  </section>
+
+  <!-- ESTRELA DO MAR -->
+  <section>
+    <h2>⭐ Estrelas-do-Mar</h2>
+
+    <div class="gallery">
+      <img src="static/20251107_1614_Estrela do Mar_simple_compose_01k9fvv39reezac8r8tzc1j5hk.png" alt="Estrela do mar">
+      <img src="static/20251107_1616_Estrela-do-mar no Coral_simple_compose_01k9fvxk8rfr3t2q91zce0g1ng.png" alt="Estrela em coral">
+    </div>
+
+    <p>As estrelas-do-mar não têm cérebro nem sangue. Seu corpo funciona por meio de um sistema hidráulico com água. Algumas espécies conseguem **regenerar braços perdidos**, e podem viver por décadas.</p>
+  </section>
+
+  <!-- TUBARÕES -->
+  <section>
+    <h2>🦈 Tubarões</h2>
+
+    <div class="gallery">
+      <img src="static/20251107_1618_Tubarão Majestoso_simple_compose_01k9fw1vq5fsf86g9fbf58s4bw.png" alt="Tubarão">
+      <img src="static/20251107_1621_Tubarão Branco Majestoso_simple_compose_01k9fw5vb8fqcvksw67xsdqwbw.png" alt="Tubarão Branco">
+    </div>
+
+    <p>Tubarões existem há mais de 400 milhões de anos. Muitas espécies conseguem detectar batimentos cardíacos e impulsos elétricos de presas distantes. Ao contrário do que muitos pensam, a maioria das espécies não representa perigo aos seres humanos.</p>
+  </section>
+
+  <!-- TARTARUGA MARINHA -->
+  <section>
+    <h2>🐢 Tartaruga-Marinha</h2>
+
+    <div class="gallery">
+      <img src="static/20251107_1623_Tartaruga-Marinha Serenidade_simple_compose_01k9fwa8xmfnvvp2mymc859rjp.png" alt="Tartaruga marinha">
+      <img src="static/20251107_1625_Tartaruga a Nadar_simple_compose_01k9fwd0w6e0a92fd7qy9qeq5z.png" alt="Tartaruga nadando">
+    </div>
+
+    <p>Tartarugas-marinhas podem viver mais de **80 anos** e viajar milhares de quilômetros ao longo da vida. Sempre retornam à **mesma praia onde nasceram** para botar seus ovos, usando o campo magnético da Terra como guia.</p>
+  </section>
+
+  <!-- ÁGUA-VIVA -->
+  <section>
+    <h2>🌐 Água-Viva</h2>
+
+    <div class="gallery">
+      <img src="static/20251107_1626_Água-viva Deslumbrante_simple_compose_01k9fwgyp1e68sprqkzq96bbyy.png" alt="Água viva">
+      <img src="static/20251107_1628_Água-viva Azul_simple_compose_01k9fwkqfbe3z8ab43089e5k9r.png" alt="Água viva azul">
+    </div>
+
+    <p>Águas-vivas existem há mais de **500 milhões de anos**. Não possuem cérebro, coração ou ossos — apenas um corpo gelatinoso. Algumas espécies podem até **brilhar no escuro** graças à bioluminescência.</p>
+  </section>
+
+  <!-- ORCA -->
+  <section>
+    <h2>🐋 Orca</h2>
+
+    <div class="gallery">
+      <img src="static/20251114_1548_Orca Majestosa_simple_compose_01ka1v22ekfb0tyx5bdpk5df18.png" alt="Orca">
+      <img src="static/20251110_1646_Orca Saltando no Mar_simple_compose_01k9qmsk93ensv94q385gdcyka.png" alt="Orca saltando">
+    </div>
+
+    <p>As orcas são conhecidas como “baleias assassinas”, mas na verdade são **golfinhos gigantes**. Extremamente inteligentes, vivem em grupos familiares e caçam de maneira estratégica. Podem atingir até 56 km/h.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Mundos Marinhos | Criado com 🌊 e curiosidade</p>
+  </footer>
+
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Robert"
+  agent-id="d396cafd-0d12-4f5a-bed2-ddbb355260d5"
+  language-code="pt-br"
+></df-messenger>
+
+  <!-- Modal da câmera (inicialmente escondido) -->
+  <div id="cameraModal" class="modal" aria-hidden="true" style="display:none;">
+    <div class="modal-content">
+      <button id="fecharModal" class="botao-fechar" title="Fechar">❌</button>
+      <h2 class="modal-title">Reconhecimento Facial</h2>
+      <div class="video-wrap">
+        <video id="video" autoplay muted playsinline></video>
+      </div>
+      <div class="controls">
+        <button id="tirarFoto" class="botao-foto" title="Tirar foto">📸</button>
+      </div>
+      <p id="modalStatus" class="modal-status">Aguardando...</p>
+      <canvas id="fotoCanvas" style="display:none;"></canvas>
+    </div>
+  </div>
+
+</body>
+</html>
